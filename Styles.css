@@ -24,6 +24,7 @@ header {
  }
 
 footer {
+  background-color: lightgray;
   margin-top: 1rem;
  }
   
@@ -35,7 +36,6 @@ p, img{
 }
 
 nav{
-  display:inline-flex;
   justify-content:center;
   margin-top:2rem;
   align-items: center;
@@ -44,19 +44,35 @@ nav{
 ul{
   display:flex;
   list-style:none;
+  justify-content:center;
+}
+
+li{
+   max-width: 10%;
 }
 
 a{
   display:inline-flex;
   justify-content: center;
+  text-decoration: none;
 }
+
+a:link {
+  color: rgba(3, 2, 0, 0.829);
+  }
+ 
+ a:hover {
+  color: #2596be;
+ }
+
+
 
 /* DIV definido para todas as imagens com texto*/
 div{
   display:inline-flex;
   float: left;
   margin:0;
-  margin-top 2rem;
+  margin-top: 2rem;
   margin-left: 2rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
